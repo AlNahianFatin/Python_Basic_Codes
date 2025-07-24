@@ -1,2 +1,2 @@
 # Python_Basic_Codes
-<br>This folder contains my C++ codes
+<br>This repository contains my Python codes
