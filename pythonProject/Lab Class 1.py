@@ -1,0 +1,70 @@
+# 1
+# num = int(input("Enter an integer number : "))
+# if(num % 2 == 0):
+#     print(f"{num} is an even number")
+# else:
+#     print(f"{num} is an odd number")
+
+# # 2
+# num = int(input("Enter an integer number : "))
+# match num:
+#     case 1:
+#         print("January")
+#     case 2:
+#         print("February")
+#     case 3:
+#         print("March")
+#     case 4:
+#         print("April")
+#     case 5:
+#         print("May")
+#     case 6:
+#         print("June")
+#     case 7:
+#         print("July")
+#     case 8:
+#         print("August")
+#     case 9:
+#         print("September")
+#     case 10:
+#         print("October")
+#     case 11:
+#         print("November")
+#     case 12:
+#         print("December")
+#     case _:
+#         print(f"No corresponding month for {num}")
+
+# # 3
+# num = int(input("Enter an integer : "))
+# sum = 1
+# i = num
+# while(i >= 1):
+#     sum = sum * i
+#     i = i-1
+# print(f"The factorial of {num} is {sum}")
+
+# # 4
+# lst = []
+# num = int(input("Enter the number of elements : "))
+#
+# for i in range(0, num):
+#     ele = int(input(f"Enter element no.{i + 1} : "))
+#     lst.append(ele)
+# print(f"{max(lst)} is the largest number")
+
+# # 5
+# year = int(input("Enter a year : "))
+# if (year % 400 == 0) and (year % 100 == 0):
+#     print(f"{year} is a leap year")
+# elif (year % 4 == 0) and (year % 100 != 0):
+#     print(f"{year} is a leap year")
+# else:
+#     print(f"{year} is not a leap year")
+
+# 6
+# num = int(input("Enter an integer : "))
+# i = 1
+# while(i <= 10):
+#     print(f"{num} x {i} = {num*i}")
+#     i = i+1

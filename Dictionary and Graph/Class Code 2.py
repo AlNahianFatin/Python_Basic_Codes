@@ -1,0 +1,39 @@
+#for i in range(2,8,3): #(start,stop,step)
+ # print(i, end=" ")
+list = [2,13,1,42,1,311]
+for i in range(0,len(list),2):
+  print(list[i], end=" ")
+for i in range(0, len(list), 2):
+      print(list[i], end="")
+
+
+#Dictionary
+J = { 
+    # 'key' : 'value'
+    'Diganta' : '22',
+    'Fahim' : '23',
+    'Hasin' : '24'
+}
+print(J)
+print(J['Diganta']) # access data
+print(J.get('Fahim')) # access data
+print(J.keys())
+print(J.values())
+J.update({'Sara' : '25'}) #update - dict.update({key:value})
+print(J)
+J.popitem()
+print(J)
+J.pop('Fahim')
+print(J)
+del J # delete the full dictionary
+
+
+# creating graph by using dictionary
+graph = {
+    'A' : ['B','C','D'],
+    'B' : ['P','Q'],
+    'C' : ['Z']
+}
+print(graph)
+for i in graph:
+  print(graph[i])

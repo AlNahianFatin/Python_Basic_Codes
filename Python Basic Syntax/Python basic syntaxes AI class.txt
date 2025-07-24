@@ -1,0 +1,59 @@
+# Printing and Type casting
+print('Hello class','My lab 1')
+a = 5
+b = "Hello"
+c = 4.67
+print(a)
+print(x)
+print(b)
+print(c)
+print(type(a))
+print(type(b))
+print(type(c))
+d = a + c
+print(d) # implicit
+print(int(d)) # explicit
+
+# taking input
+a = input("Enter a number : ")
+print(a)
+print(type(a))
+b = int(input("Enter an integer number : "))
+print(b)
+print(type(b))
+
+# arithmatic operators
+a = 5
+c = 3
+b = 7.5
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b) #a divided by b
+print(a**c) #a to the power b
+print(a//c) #only the quotient of a divided by by
+print(a%c) #remainder of a divided by b
+
+# List : mutable - can be changed
+# list functions - append(), copy(), insert(_index: , _object: ), remove(), len(list),
+# max(list), min(list), sort()
+a = [2, 4, 1, 43, 32, 556, 223, 232]
+c = ['Rakib', 'Sakib']
+print(a)
+a.append(1000)
+print(a)
+a.insert(4, 200)
+print(a)
+a.remove(232)
+print(a)
+a.remove(a[2])
+print(a)
+print(len(a))
+a.sort()
+print(a)
+print(max(a))
+print(min(a))
+
+# Tupple : immutable - cannot be changed
+a = (2, 3, 4)
+print(a)
